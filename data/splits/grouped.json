@@ -1,0 +1,27 @@
+{
+  "protocol": "grouped",
+  "source": "multi_engine_data_python/outputs/ast_revision_grouped_dataset/context_energy_dataset.npz",
+  "source_sha256": "2452b544746b15a45f264d2391a774fb5557bd16641174d01be3144f4afb7dc8",
+  "published_sha256": "55713cafb397deb97957cde16b604acc276ead0a7126250ce5bea7c138fd089d",
+  "records": 19528,
+  "rails": 12,
+  "source_entries": 200,
+  "used_simulations": 144,
+  "splits": {
+    "0": {
+      "simulations": 84,
+      "records": 9428,
+      "rail_points": 113136
+    },
+    "1": {
+      "simulations": 32,
+      "records": 3652,
+      "rail_points": 43824
+    },
+    "2": {
+      "simulations": 28,
+      "records": 6448,
+      "rail_points": 77376
+    }
+  }
+}

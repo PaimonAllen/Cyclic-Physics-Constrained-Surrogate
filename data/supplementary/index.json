@@ -1,0 +1,126 @@
+[
+  {
+    "case": "baseline_reproduction",
+    "history": "data/supplementary/baseline_reproduction/rail_history.npz"
+  },
+  {
+    "case": "gain_grid_kp2p5_kd25",
+    "history": "data/supplementary/gain_grid_kp2p5_kd25/rail_history.npz"
+  },
+  {
+    "case": "gain_grid_kp2p5_kd50",
+    "history": "data/supplementary/gain_grid_kp2p5_kd50/rail_history.npz"
+  },
+  {
+    "case": "gain_grid_kp2p5_kd90",
+    "history": "data/supplementary/gain_grid_kp2p5_kd90/rail_history.npz"
+  },
+  {
+    "case": "gain_grid_kp4_kd25",
+    "history": "data/supplementary/gain_grid_kp4_kd25/rail_history.npz"
+  },
+  {
+    "case": "gain_grid_kp4_kd50",
+    "history": "data/supplementary/gain_grid_kp4_kd50/rail_history.npz"
+  },
+  {
+    "case": "gain_grid_kp4_kd90",
+    "history": "data/supplementary/gain_grid_kp4_kd90/rail_history.npz"
+  },
+  {
+    "case": "gain_grid_kp7p5_kd25",
+    "history": "data/supplementary/gain_grid_kp7p5_kd25/rail_history.npz"
+  },
+  {
+    "case": "gain_grid_kp7p5_kd50",
+    "history": "data/supplementary/gain_grid_kp7p5_kd50/rail_history.npz"
+  },
+  {
+    "case": "gain_grid_kp7p5_kd90",
+    "history": "data/supplementary/gain_grid_kp7p5_kd90/rail_history.npz"
+  },
+  {
+    "case": "localized_gaussian",
+    "history": "data/supplementary/localized_gaussian/rail_history.npz"
+  },
+  {
+    "case": "localized_two_rails",
+    "history": "data/supplementary/localized_two_rails/rail_history.npz"
+  },
+  {
+    "case": "new_gain_combination_a",
+    "history": "data/supplementary/new_gain_combination_a/rail_history.npz"
+  },
+  {
+    "case": "new_gain_combination_b",
+    "history": "data/supplementary/new_gain_combination_b/rail_history.npz"
+  },
+  {
+    "case": "reference_swap_2_3",
+    "history": "data/supplementary/reference_swap_2_3/rail_history.npz"
+  },
+  {
+    "case": "reference_swap_2_4",
+    "history": "data/supplementary/reference_swap_2_4/rail_history.npz"
+  },
+  {
+    "case": "repeat_two_harmonic_1",
+    "history": "data/supplementary/repeat_two_harmonic_1/rail_history.npz"
+  },
+  {
+    "case": "repeat_two_harmonic_2",
+    "history": "data/supplementary/repeat_two_harmonic_2/rail_history.npz"
+  },
+  {
+    "case": "repeat_two_harmonic_3",
+    "history": "data/supplementary/repeat_two_harmonic_3/rail_history.npz"
+  },
+  {
+    "case": "third_harmonic_a",
+    "history": "data/supplementary/third_harmonic_a/rail_history.npz"
+  },
+  {
+    "case": "third_harmonic_b",
+    "history": "data/supplementary/third_harmonic_b/rail_history.npz"
+  },
+  {
+    "case": "thrust_bound_15kN",
+    "history": "data/supplementary/thrust_bound_15kN/rail_history.npz"
+  },
+  {
+    "case": "thrust_bound_25kN",
+    "history": "data/supplementary/thrust_bound_25kN/rail_history.npz"
+  },
+  {
+    "case": "thrust_bound_35kN",
+    "history": "data/supplementary/thrust_bound_35kN/rail_history.npz"
+  },
+  {
+    "case": "thrust_bound_50kN",
+    "history": "data/supplementary/thrust_bound_50kN/rail_history.npz"
+  },
+  {
+    "case": "topology_1_alternating",
+    "history": "data/supplementary/topology_1_alternating/rail_history.npz"
+  },
+  {
+    "case": "topology_1_clustered",
+    "history": "data/supplementary/topology_1_clustered/rail_history.npz"
+  },
+  {
+    "case": "topology_2_alternating",
+    "history": "data/supplementary/topology_2_alternating/rail_history.npz"
+  },
+  {
+    "case": "topology_2_clustered",
+    "history": "data/supplementary/topology_2_clustered/rail_history.npz"
+  },
+  {
+    "case": "two_harmonic_a",
+    "history": "data/supplementary/two_harmonic_a/rail_history.npz"
+  },
+  {
+    "case": "two_harmonic_b",
+    "history": "data/supplementary/two_harmonic_b/rail_history.npz"
+  }
+]

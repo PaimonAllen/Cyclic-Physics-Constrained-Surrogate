@@ -1,0 +1,27 @@
+{
+  "protocol": "nominal",
+  "source": "multi_engine_data_python/outputs/phase10_external_audit_dataset_v25/context_energy_dataset.npz",
+  "source_sha256": "0424d925b0d5bbcf7806274f7f14d6db6a7babe21f88971db6d5041d5afa2369",
+  "published_sha256": "86a7ebf1af5bbb3af0d11444abc14be4efc78547d27316e0e2ed4c32f6f44fa4",
+  "records": 19528,
+  "rails": 12,
+  "source_entries": 200,
+  "used_simulations": 144,
+  "splits": {
+    "0": {
+      "simulations": 118,
+      "records": 16605,
+      "rail_points": 199260
+    },
+    "1": {
+      "simulations": 20,
+      "records": 2254,
+      "rail_points": 27048
+    },
+    "2": {
+      "simulations": 6,
+      "records": 669,
+      "rail_points": 8028
+    }
+  }
+}

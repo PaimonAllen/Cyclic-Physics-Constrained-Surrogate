@@ -1,0 +1,35 @@
+{
+  "case_to_cyclic_group": {
+    "152": 1,
+    "192": 2,
+    "98": 3,
+    "21": 4,
+    "100": 5,
+    "101": 5,
+    "181": 6,
+    "182": 6,
+    "183": 6,
+    "184": 6,
+    "185": 6,
+    "186": 6,
+    "187": 6,
+    "188": 6,
+    "189": 6,
+    "190": 6,
+    "1": 7,
+    "3": 7,
+    "195": 8,
+    "196": 8,
+    "12": 9,
+    "13": 9,
+    "109": 10,
+    "153": 11,
+    "194": 12
+  },
+  "original_cases": [
+    194,
+    195,
+    196
+  ],
+  "aggregation": "Main points show mean plus or minus sample SD across seeds run_01, run_02, run_03. Relative RMSE is computed within each cyclic group and averaged equally across groups, separately for 3 trajectories in 2 groups and 25 trajectories in 12 groups. Total is the six-field arithmetic mean within each seed. Stars show a separate archived single run for Section 6.1, using its original pooled metric. Reported Section 6.1 values are used directly. Additional velocity and acceleration values and its Total are recovered from those same archived runs."
+}

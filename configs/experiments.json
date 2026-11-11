@@ -1,0 +1,395 @@
+{
+  "run_ids": [
+    "run_01",
+    "run_02",
+    "run_03"
+  ],
+  "runs": [
+    {
+      "protocol": "grouped",
+      "variant": "full",
+      "run_id": "run_01",
+      "kind": "ablation",
+      "directory": "models/grouped/full/run_01",
+      "checkpoint": "models/grouped/full/run_01/model.pt",
+      "config": "models/grouped/full/run_01/config.json",
+      "predictions": "models/grouped/full/run_01/predictions.npz"
+    },
+    {
+      "protocol": "grouped",
+      "variant": "no_pd_projection",
+      "run_id": "run_01",
+      "kind": "ablation",
+      "directory": "models/grouped/no_pd_projection/run_01",
+      "checkpoint": "models/grouped/no_pd_projection/run_01/model.pt",
+      "config": "models/grouped/no_pd_projection/run_01/config.json",
+      "predictions": "models/grouped/no_pd_projection/run_01/predictions.npz"
+    },
+    {
+      "protocol": "grouped",
+      "variant": "no_cyclic_coupling",
+      "run_id": "run_01",
+      "kind": "ablation",
+      "directory": "models/grouped/no_cyclic_coupling/run_01",
+      "checkpoint": "models/grouped/no_cyclic_coupling/run_01/model.pt",
+      "config": "models/grouped/no_cyclic_coupling/run_01/config.json",
+      "predictions": "models/grouped/no_cyclic_coupling/run_01/predictions.npz"
+    },
+    {
+      "protocol": "grouped",
+      "variant": "no_invariant_energy_pool",
+      "run_id": "run_01",
+      "kind": "ablation",
+      "directory": "models/grouped/no_invariant_energy_pool/run_01",
+      "checkpoint": "models/grouped/no_invariant_energy_pool/run_01/model.pt",
+      "config": "models/grouped/no_invariant_energy_pool/run_01/config.json",
+      "predictions": "models/grouped/no_invariant_energy_pool/run_01/predictions.npz"
+    },
+    {
+      "protocol": "grouped",
+      "variant": "no_force_balance",
+      "run_id": "run_01",
+      "kind": "ablation",
+      "directory": "models/grouped/no_force_balance/run_01",
+      "checkpoint": "models/grouped/no_force_balance/run_01/model.pt",
+      "config": "models/grouped/no_force_balance/run_01/config.json",
+      "predictions": "models/grouped/no_force_balance/run_01/predictions.npz"
+    },
+    {
+      "protocol": "grouped",
+      "variant": "no_hard_closures",
+      "run_id": "run_01",
+      "kind": "ablation",
+      "directory": "models/grouped/no_hard_closures/run_01",
+      "checkpoint": "models/grouped/no_hard_closures/run_01/model.pt",
+      "config": "models/grouped/no_hard_closures/run_01/config.json",
+      "predictions": "models/grouped/no_hard_closures/run_01/predictions.npz"
+    },
+    {
+      "protocol": "grouped",
+      "variant": "soft_pinn",
+      "run_id": "run_01",
+      "kind": "ablation",
+      "directory": "models/grouped/soft_pinn/run_01",
+      "checkpoint": "models/grouped/soft_pinn/run_01/model.pt",
+      "config": "models/grouped/soft_pinn/run_01/config.json",
+      "predictions": "models/grouped/soft_pinn/run_01/predictions.npz"
+    },
+    {
+      "protocol": "grouped",
+      "variant": "soft_pinn_tanh",
+      "run_id": "run_01",
+      "kind": "ablation",
+      "directory": "models/grouped/soft_pinn_tanh/run_01",
+      "checkpoint": "models/grouped/soft_pinn_tanh/run_01/model.pt",
+      "config": "models/grouped/soft_pinn_tanh/run_01/config.json",
+      "predictions": "models/grouped/soft_pinn_tanh/run_01/predictions.npz"
+    },
+    {
+      "protocol": "grouped",
+      "variant": "soft_pinn_fourier",
+      "run_id": "run_01",
+      "kind": "ablation",
+      "directory": "models/grouped/soft_pinn_fourier/run_01",
+      "checkpoint": "models/grouped/soft_pinn_fourier/run_01/model.pt",
+      "config": "models/grouped/soft_pinn_fourier/run_01/config.json",
+      "predictions": "models/grouped/soft_pinn_fourier/run_01/predictions.npz"
+    },
+    {
+      "protocol": "grouped",
+      "variant": "full",
+      "run_id": "run_02",
+      "kind": "ablation",
+      "directory": "models/grouped/full/run_02",
+      "checkpoint": "models/grouped/full/run_02/model.pt",
+      "config": "models/grouped/full/run_02/config.json",
+      "predictions": "models/grouped/full/run_02/predictions.npz"
+    },
+    {
+      "protocol": "grouped",
+      "variant": "no_pd_projection",
+      "run_id": "run_02",
+      "kind": "ablation",
+      "directory": "models/grouped/no_pd_projection/run_02",
+      "checkpoint": "models/grouped/no_pd_projection/run_02/model.pt",
+      "config": "models/grouped/no_pd_projection/run_02/config.json",
+      "predictions": "models/grouped/no_pd_projection/run_02/predictions.npz"
+    },
+    {
+      "protocol": "grouped",
+      "variant": "no_cyclic_coupling",
+      "run_id": "run_02",
+      "kind": "ablation",
+      "directory": "models/grouped/no_cyclic_coupling/run_02",
+      "checkpoint": "models/grouped/no_cyclic_coupling/run_02/model.pt",
+      "config": "models/grouped/no_cyclic_coupling/run_02/config.json",
+      "predictions": "models/grouped/no_cyclic_coupling/run_02/predictions.npz"
+    },
+    {
+      "protocol": "grouped",
+      "variant": "no_invariant_energy_pool",
+      "run_id": "run_02",
+      "kind": "ablation",
+      "directory": "models/grouped/no_invariant_energy_pool/run_02",
+      "checkpoint": "models/grouped/no_invariant_energy_pool/run_02/model.pt",
+      "config": "models/grouped/no_invariant_energy_pool/run_02/config.json",
+      "predictions": "models/grouped/no_invariant_energy_pool/run_02/predictions.npz"
+    },
+    {
+      "protocol": "grouped",
+      "variant": "no_force_balance",
+      "run_id": "run_02",
+      "kind": "ablation",
+      "directory": "models/grouped/no_force_balance/run_02",
+      "checkpoint": "models/grouped/no_force_balance/run_02/model.pt",
+      "config": "models/grouped/no_force_balance/run_02/config.json",
+      "predictions": "models/grouped/no_force_balance/run_02/predictions.npz"
+    },
+    {
+      "protocol": "grouped",
+      "variant": "no_hard_closures",
+      "run_id": "run_02",
+      "kind": "ablation",
+      "directory": "models/grouped/no_hard_closures/run_02",
+      "checkpoint": "models/grouped/no_hard_closures/run_02/model.pt",
+      "config": "models/grouped/no_hard_closures/run_02/config.json",
+      "predictions": "models/grouped/no_hard_closures/run_02/predictions.npz"
+    },
+    {
+      "protocol": "grouped",
+      "variant": "soft_pinn",
+      "run_id": "run_02",
+      "kind": "ablation",
+      "directory": "models/grouped/soft_pinn/run_02",
+      "checkpoint": "models/grouped/soft_pinn/run_02/model.pt",
+      "config": "models/grouped/soft_pinn/run_02/config.json",
+      "predictions": "models/grouped/soft_pinn/run_02/predictions.npz"
+    },
+    {
+      "protocol": "grouped",
+      "variant": "soft_pinn_tanh",
+      "run_id": "run_02",
+      "kind": "ablation",
+      "directory": "models/grouped/soft_pinn_tanh/run_02",
+      "checkpoint": "models/grouped/soft_pinn_tanh/run_02/model.pt",
+      "config": "models/grouped/soft_pinn_tanh/run_02/config.json",
+      "predictions": "models/grouped/soft_pinn_tanh/run_02/predictions.npz"
+    },
+    {
+      "protocol": "grouped",
+      "variant": "soft_pinn_fourier",
+      "run_id": "run_02",
+      "kind": "ablation",
+      "directory": "models/grouped/soft_pinn_fourier/run_02",
+      "checkpoint": "models/grouped/soft_pinn_fourier/run_02/model.pt",
+      "config": "models/grouped/soft_pinn_fourier/run_02/config.json",
+      "predictions": "models/grouped/soft_pinn_fourier/run_02/predictions.npz"
+    },
+    {
+      "protocol": "grouped",
+      "variant": "full",
+      "run_id": "run_03",
+      "kind": "ablation",
+      "directory": "models/grouped/full/run_03",
+      "checkpoint": "models/grouped/full/run_03/model.pt",
+      "config": "models/grouped/full/run_03/config.json",
+      "predictions": "models/grouped/full/run_03/predictions.npz"
+    },
+    {
+      "protocol": "grouped",
+      "variant": "no_pd_projection",
+      "run_id": "run_03",
+      "kind": "ablation",
+      "directory": "models/grouped/no_pd_projection/run_03",
+      "checkpoint": "models/grouped/no_pd_projection/run_03/model.pt",
+      "config": "models/grouped/no_pd_projection/run_03/config.json",
+      "predictions": "models/grouped/no_pd_projection/run_03/predictions.npz"
+    },
+    {
+      "protocol": "grouped",
+      "variant": "no_cyclic_coupling",
+      "run_id": "run_03",
+      "kind": "ablation",
+      "directory": "models/grouped/no_cyclic_coupling/run_03",
+      "checkpoint": "models/grouped/no_cyclic_coupling/run_03/model.pt",
+      "config": "models/grouped/no_cyclic_coupling/run_03/config.json",
+      "predictions": "models/grouped/no_cyclic_coupling/run_03/predictions.npz"
+    },
+    {
+      "protocol": "grouped",
+      "variant": "no_invariant_energy_pool",
+      "run_id": "run_03",
+      "kind": "ablation",
+      "directory": "models/grouped/no_invariant_energy_pool/run_03",
+      "checkpoint": "models/grouped/no_invariant_energy_pool/run_03/model.pt",
+      "config": "models/grouped/no_invariant_energy_pool/run_03/config.json",
+      "predictions": "models/grouped/no_invariant_energy_pool/run_03/predictions.npz"
+    },
+    {
+      "protocol": "grouped",
+      "variant": "no_force_balance",
+      "run_id": "run_03",
+      "kind": "ablation",
+      "directory": "models/grouped/no_force_balance/run_03",
+      "checkpoint": "models/grouped/no_force_balance/run_03/model.pt",
+      "config": "models/grouped/no_force_balance/run_03/config.json",
+      "predictions": "models/grouped/no_force_balance/run_03/predictions.npz"
+    },
+    {
+      "protocol": "grouped",
+      "variant": "no_hard_closures",
+      "run_id": "run_03",
+      "kind": "ablation",
+      "directory": "models/grouped/no_hard_closures/run_03",
+      "checkpoint": "models/grouped/no_hard_closures/run_03/model.pt",
+      "config": "models/grouped/no_hard_closures/run_03/config.json",
+      "predictions": "models/grouped/no_hard_closures/run_03/predictions.npz"
+    },
+    {
+      "protocol": "grouped",
+      "variant": "soft_pinn",
+      "run_id": "run_03",
+      "kind": "ablation",
+      "directory": "models/grouped/soft_pinn/run_03",
+      "checkpoint": "models/grouped/soft_pinn/run_03/model.pt",
+      "config": "models/grouped/soft_pinn/run_03/config.json",
+      "predictions": "models/grouped/soft_pinn/run_03/predictions.npz"
+    },
+    {
+      "protocol": "grouped",
+      "variant": "soft_pinn_tanh",
+      "run_id": "run_03",
+      "kind": "ablation",
+      "directory": "models/grouped/soft_pinn_tanh/run_03",
+      "checkpoint": "models/grouped/soft_pinn_tanh/run_03/model.pt",
+      "config": "models/grouped/soft_pinn_tanh/run_03/config.json",
+      "predictions": "models/grouped/soft_pinn_tanh/run_03/predictions.npz"
+    },
+    {
+      "protocol": "grouped",
+      "variant": "soft_pinn_fourier",
+      "run_id": "run_03",
+      "kind": "ablation",
+      "directory": "models/grouped/soft_pinn_fourier/run_03",
+      "checkpoint": "models/grouped/soft_pinn_fourier/run_03/model.pt",
+      "config": "models/grouped/soft_pinn_fourier/run_03/config.json",
+      "predictions": "models/grouped/soft_pinn_fourier/run_03/predictions.npz"
+    },
+    {
+      "protocol": "nominal",
+      "variant": "full",
+      "run_id": "run_01",
+      "kind": "strict",
+      "directory": "models/nominal/full/run_01",
+      "checkpoint": "models/nominal/full/run_01/model.pt",
+      "config": "models/nominal/full/run_01/config.json",
+      "predictions": "models/nominal/full/run_01/predictions.npz"
+    },
+    {
+      "protocol": "nominal",
+      "variant": "no_pd_projection",
+      "run_id": "run_01",
+      "kind": "ablation",
+      "directory": "models/nominal/no_pd_projection/run_01",
+      "checkpoint": "models/nominal/no_pd_projection/run_01/model.pt",
+      "config": "models/nominal/no_pd_projection/run_01/config.json",
+      "predictions": "models/nominal/no_pd_projection/run_01/predictions.npz"
+    },
+    {
+      "protocol": "nominal",
+      "variant": "no_cyclic_coupling",
+      "run_id": "run_01",
+      "kind": "ablation",
+      "directory": "models/nominal/no_cyclic_coupling/run_01",
+      "checkpoint": "models/nominal/no_cyclic_coupling/run_01/model.pt",
+      "config": "models/nominal/no_cyclic_coupling/run_01/config.json",
+      "predictions": "models/nominal/no_cyclic_coupling/run_01/predictions.npz"
+    },
+    {
+      "protocol": "nominal",
+      "variant": "no_invariant_energy_pool",
+      "run_id": "run_01",
+      "kind": "ablation",
+      "directory": "models/nominal/no_invariant_energy_pool/run_01",
+      "checkpoint": "models/nominal/no_invariant_energy_pool/run_01/model.pt",
+      "config": "models/nominal/no_invariant_energy_pool/run_01/config.json",
+      "predictions": "models/nominal/no_invariant_energy_pool/run_01/predictions.npz"
+    },
+    {
+      "protocol": "nominal",
+      "variant": "no_force_balance",
+      "run_id": "run_01",
+      "kind": "ablation",
+      "directory": "models/nominal/no_force_balance/run_01",
+      "checkpoint": "models/nominal/no_force_balance/run_01/model.pt",
+      "config": "models/nominal/no_force_balance/run_01/config.json",
+      "predictions": "models/nominal/no_force_balance/run_01/predictions.npz"
+    },
+    {
+      "protocol": "nominal",
+      "variant": "no_hard_closures",
+      "run_id": "run_01",
+      "kind": "ablation",
+      "directory": "models/nominal/no_hard_closures/run_01",
+      "checkpoint": "models/nominal/no_hard_closures/run_01/model.pt",
+      "config": "models/nominal/no_hard_closures/run_01/config.json",
+      "predictions": "models/nominal/no_hard_closures/run_01/predictions.npz"
+    }
+  ],
+  "dataset_statistics": {
+    "nominal": {
+      "protocol": "nominal",
+      "source": "multi_engine_data_python/outputs/phase10_external_audit_dataset_v25/context_energy_dataset.npz",
+      "source_sha256": "0424d925b0d5bbcf7806274f7f14d6db6a7babe21f88971db6d5041d5afa2369",
+      "published_sha256": "86a7ebf1af5bbb3af0d11444abc14be4efc78547d27316e0e2ed4c32f6f44fa4",
+      "records": 19528,
+      "rails": 12,
+      "source_entries": 200,
+      "used_simulations": 144,
+      "splits": {
+        "0": {
+          "simulations": 118,
+          "records": 16605,
+          "rail_points": 199260
+        },
+        "1": {
+          "simulations": 20,
+          "records": 2254,
+          "rail_points": 27048
+        },
+        "2": {
+          "simulations": 6,
+          "records": 669,
+          "rail_points": 8028
+        }
+      }
+    },
+    "grouped": {
+      "protocol": "grouped",
+      "source": "multi_engine_data_python/outputs/ast_revision_grouped_dataset/context_energy_dataset.npz",
+      "source_sha256": "2452b544746b15a45f264d2391a774fb5557bd16641174d01be3144f4afb7dc8",
+      "published_sha256": "55713cafb397deb97957cde16b604acc276ead0a7126250ce5bea7c138fd089d",
+      "records": 19528,
+      "rails": 12,
+      "source_entries": 200,
+      "used_simulations": 144,
+      "splits": {
+        "0": {
+          "simulations": 84,
+          "records": 9428,
+          "rail_points": 113136
+        },
+        "1": {
+          "simulations": 32,
+          "records": 3652,
+          "rail_points": 43824
+        },
+        "2": {
+          "simulations": 28,
+          "records": 6448,
+          "rail_points": 77376
+        }
+      }
+    }
+  }
+}

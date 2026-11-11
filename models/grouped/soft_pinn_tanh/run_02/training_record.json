@@ -1,0 +1,86 @@
+{
+  "status": "success",
+  "experiment": "phase10_v25_one_factor_ablation",
+  "variant": "soft_pinn_tanh",
+  "best_epoch": 100,
+  "best_validation_score": 75.05942985736252,
+  "best_validation_metrics": {
+    "epoch": 100,
+    "train_loss": 0.03348728863614871,
+    "lr": 0.0002,
+    "elapsed_s": 12.730931199970655,
+    "train_p_rel_rmse_pct": 0.3305930920264247,
+    "train_pdot_rel_rmse_pct": 1.2497846440431792,
+    "train_state_rel_rmse_pct": 1.0999179812958233,
+    "train_energy_rel_rmse_pct": 1.8304995209057864,
+    "train_resistance_rel_rmse_pct": 2.0707445020303776,
+    "train_force_rel_rmse_pct": 2.31347070717948,
+    "train_pd_closure_rel_rmse_pct": 2.085333750479038,
+    "train_balance_closure_rel_rmse_pct": 2.5790855566978457,
+    "val_p_rel_rmse_pct": 5.068435716179324,
+    "val_pdot_rel_rmse_pct": 8.045396728675227,
+    "val_state_rel_rmse_pct": 7.448900731825939,
+    "val_energy_rel_rmse_pct": 14.809580426933394,
+    "val_resistance_rel_rmse_pct": 26.88966435144458,
+    "val_force_rel_rmse_pct": 20.24635263412999,
+    "val_pd_closure_rel_rmse_pct": 6.682947685623662,
+    "val_balance_closure_rel_rmse_pct": 30.511205438770858,
+    "val_score": 75.05942985736252
+  },
+  "test_metrics": {
+    "formal_test": {
+      "formal_test_p_rel_rmse_pct": 4.574296275235066,
+      "formal_test_pdot_rel_rmse_pct": 10.045612131058132,
+      "formal_test_state_rel_rmse_pct": 8.926580783480244,
+      "formal_test_energy_rel_rmse_pct": 11.25732823477453,
+      "formal_test_resistance_rel_rmse_pct": 22.427740622286326,
+      "formal_test_force_rel_rmse_pct": 21.339956146454256,
+      "formal_test_pd_closure_rel_rmse_pct": 4.890643052397521,
+      "formal_test_balance_closure_rel_rmse_pct": 19.146086397614212
+    },
+    "ood_test": {
+      "ood_test_p_rel_rmse_pct": 32.74383374968184,
+      "ood_test_pdot_rel_rmse_pct": 33.93283526574661,
+      "ood_test_state_rel_rmse_pct": 33.653081792429894,
+      "ood_test_energy_rel_rmse_pct": 46.38002353672896,
+      "ood_test_resistance_rel_rmse_pct": 31.520784423122162,
+      "ood_test_force_rel_rmse_pct": 46.50576309589985,
+      "ood_test_pd_closure_rel_rmse_pct": 3.2549412946655703,
+      "ood_test_balance_closure_rel_rmse_pct": 68.69493835146693
+    },
+    "all_test": {
+      "all_test_p_rel_rmse_pct": 9.26412080801035,
+      "all_test_pdot_rel_rmse_pct": 13.230002741577014,
+      "all_test_state_rel_rmse_pct": 12.309326994984042,
+      "all_test_energy_rel_rmse_pct": 14.849496011078607,
+      "all_test_resistance_rel_rmse_pct": 22.669975962829703,
+      "all_test_force_rel_rmse_pct": 22.212943641782594,
+      "all_test_pd_closure_rel_rmse_pct": 4.86021491825295,
+      "all_test_balance_closure_rel_rmse_pct": 21.52898656500676
+    }
+  },
+  "parameter_count": 4424173,
+  "hard_pd_projection": false,
+  "hard_force_balance": false,
+  "projection_mode": "legacy_velocity",
+  "validation_score_components": [
+    "val_p_rel_rmse_pct",
+    "val_pdot_rel_rmse_pct",
+    "val_energy_rel_rmse_pct",
+    "val_resistance_rel_rmse_pct",
+    "val_force_rel_rmse_pct"
+  ],
+  "training_elapsed_s": 380.412121500005,
+  "split_isolation": {
+    "train_rows": 9428,
+    "validation_rows": 3652,
+    "test_rows": 6448,
+    "checkpoint_selected_on": "validation only",
+    "test_usage": "one final evaluation after checkpoint selection"
+  },
+  "checkpoint_best": "source_project/multi_engine_data_python/outputs/ast_revision_literature_pinn_3000/soft_pinn_tanh/run_02/best_ablation_response_operator.pt",
+  "history_csv": "source_project/multi_engine_data_python/outputs/ast_revision_literature_pinn_3000/soft_pinn_tanh/run_02/history.csv",
+  "loss_plot": "source_project/multi_engine_data_python/outputs/ast_revision_literature_pinn_3000/soft_pinn_tanh/run_02/loss_history.png",
+  "rmse_plot": "source_project/multi_engine_data_python/outputs/ast_revision_literature_pinn_3000/soft_pinn_tanh/run_02/rmse_history.png",
+  "test_predictions": "source_project/multi_engine_data_python/outputs/ast_revision_literature_pinn_3000/soft_pinn_tanh/run_02/test_predictions.npz"
+}

@@ -1,0 +1,86 @@
+{
+  "status": "success",
+  "experiment": "phase10_v25_one_factor_ablation",
+  "variant": "no_cyclic_coupling",
+  "best_epoch": 600,
+  "best_validation_score": 65.0082191062943,
+  "best_validation_metrics": {
+    "epoch": 600,
+    "train_loss": 0.09454841521403827,
+    "lr": 0.00012,
+    "elapsed_s": 929.9224746000255,
+    "train_p_rel_rmse_pct": 0.4077619697516937,
+    "train_pdot_rel_rmse_pct": 3.727498925386223,
+    "train_state_rel_rmse_pct": 3.250606914627973,
+    "train_energy_rel_rmse_pct": 0.5243503582768224,
+    "train_resistance_rel_rmse_pct": 3.602893247986978,
+    "train_force_rel_rmse_pct": 3.6029763404297697,
+    "train_pd_closure_rel_rmse_pct": 3.78351003042495e-14,
+    "train_balance_closure_rel_rmse_pct": 0.0,
+    "val_p_rel_rmse_pct": 4.536255852302458,
+    "val_pdot_rel_rmse_pct": 9.885784299038114,
+    "val_state_rel_rmse_pct": 8.914245122125754,
+    "val_energy_rel_rmse_pct": 9.670270529325238,
+    "val_resistance_rel_rmse_pct": 20.45774770541364,
+    "val_force_rel_rmse_pct": 20.458160720214856,
+    "val_pd_closure_rel_rmse_pct": 3.0224818016671124e-14,
+    "val_balance_closure_rel_rmse_pct": 0.0,
+    "val_score": 65.0082191062943
+  },
+  "test_metrics": {
+    "formal_test": {
+      "formal_test_p_rel_rmse_pct": 3.707513059771205,
+      "formal_test_pdot_rel_rmse_pct": 12.045184776731723,
+      "formal_test_state_rel_rmse_pct": 10.498896212942528,
+      "formal_test_energy_rel_rmse_pct": 16.695883606895144,
+      "formal_test_resistance_rel_rmse_pct": 19.318904557663604,
+      "formal_test_force_rel_rmse_pct": 19.31941997069684,
+      "formal_test_pd_closure_rel_rmse_pct": 3.136237013359194e-14,
+      "formal_test_balance_closure_rel_rmse_pct": 0.0
+    },
+    "ood_test": {
+      "ood_test_p_rel_rmse_pct": 27.743448875039952,
+      "ood_test_pdot_rel_rmse_pct": 28.79395887457004,
+      "ood_test_state_rel_rmse_pct": 28.546930379033192,
+      "ood_test_energy_rel_rmse_pct": 71.32530125674799,
+      "ood_test_resistance_rel_rmse_pct": 40.742492841287785,
+      "ood_test_force_rel_rmse_pct": 40.741914871435235,
+      "ood_test_pd_closure_rel_rmse_pct": 3.9307700884659425e-14,
+      "ood_test_balance_closure_rel_rmse_pct": 0.0
+    },
+    "all_test": {
+      "all_test_p_rel_rmse_pct": 7.772754741607776,
+      "all_test_pdot_rel_rmse_pct": 13.904885465413967,
+      "all_test_state_rel_rmse_pct": 12.582071781981591,
+      "all_test_energy_rel_rmse_pct": 22.39442246559158,
+      "all_test_resistance_rel_rmse_pct": 20.046806278909973,
+      "all_test_force_rel_rmse_pct": 20.04724698235045,
+      "all_test_pd_closure_rel_rmse_pct": 3.156108334662594e-14,
+      "all_test_balance_closure_rel_rmse_pct": 0.0
+    }
+  },
+  "parameter_count": 4445701,
+  "hard_pd_projection": true,
+  "hard_force_balance": true,
+  "projection_mode": "legacy_velocity",
+  "validation_score_components": [
+    "val_p_rel_rmse_pct",
+    "val_pdot_rel_rmse_pct",
+    "val_energy_rel_rmse_pct",
+    "val_resistance_rel_rmse_pct",
+    "val_force_rel_rmse_pct"
+  ],
+  "training_elapsed_s": 4648.578380299965,
+  "split_isolation": {
+    "train_rows": 9428,
+    "validation_rows": 3652,
+    "test_rows": 6448,
+    "checkpoint_selected_on": "validation only",
+    "test_usage": "one final evaluation after checkpoint selection"
+  },
+  "checkpoint_best": "multi_engine_data_python\\outputs\\ast_revision_original_3000\\run_01\\no_cyclic_coupling\\best_ablation_response_operator.pt",
+  "history_csv": "multi_engine_data_python\\outputs\\ast_revision_original_3000\\run_01\\no_cyclic_coupling\\history.csv",
+  "loss_plot": "multi_engine_data_python\\outputs\\ast_revision_original_3000\\run_01\\no_cyclic_coupling\\loss_history.png",
+  "rmse_plot": "multi_engine_data_python\\outputs\\ast_revision_original_3000\\run_01\\no_cyclic_coupling\\rmse_history.png",
+  "test_predictions": "multi_engine_data_python\\outputs\\ast_revision_original_3000\\run_01\\no_cyclic_coupling\\test_predictions.npz"
+}

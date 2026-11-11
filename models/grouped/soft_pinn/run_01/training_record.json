@@ -1,0 +1,86 @@
+{
+  "status": "success",
+  "experiment": "phase10_v25_one_factor_ablation",
+  "variant": "soft_pinn",
+  "best_epoch": 100,
+  "best_validation_score": 84.94106206736663,
+  "best_validation_metrics": {
+    "epoch": 100,
+    "train_loss": 0.30498232769925665,
+    "lr": 0.0002,
+    "elapsed_s": 25.549934300011955,
+    "train_p_rel_rmse_pct": 1.0496433896419077,
+    "train_pdot_rel_rmse_pct": 2.3738676457331898,
+    "train_state_rel_rmse_pct": 2.129854815175725,
+    "train_energy_rel_rmse_pct": 2.1038378996759066,
+    "train_resistance_rel_rmse_pct": 2.179797876335948,
+    "train_force_rel_rmse_pct": 1.7258521385306154,
+    "train_pd_closure_rel_rmse_pct": 5.167339816448805,
+    "train_balance_closure_rel_rmse_pct": 2.2610980703722308,
+    "val_p_rel_rmse_pct": 7.5171968835306355,
+    "val_pdot_rel_rmse_pct": 9.960304975801485,
+    "val_state_rel_rmse_pct": 9.43922118699079,
+    "val_energy_rel_rmse_pct": 12.794835453124442,
+    "val_resistance_rel_rmse_pct": 26.665468835427973,
+    "val_force_rel_rmse_pct": 28.00325591948209,
+    "val_pd_closure_rel_rmse_pct": 7.538168109328371,
+    "val_balance_closure_rel_rmse_pct": 24.72168939122095,
+    "val_score": 84.94106206736663
+  },
+  "test_metrics": {
+    "formal_test": {
+      "formal_test_p_rel_rmse_pct": 5.8028557263866265,
+      "formal_test_pdot_rel_rmse_pct": 9.44836841301656,
+      "formal_test_state_rel_rmse_pct": 8.632210232276114,
+      "formal_test_energy_rel_rmse_pct": 8.917627378070213,
+      "formal_test_resistance_rel_rmse_pct": 24.348791431346857,
+      "formal_test_force_rel_rmse_pct": 23.29792793748869,
+      "formal_test_pd_closure_rel_rmse_pct": 6.120604421418027,
+      "formal_test_balance_closure_rel_rmse_pct": 16.003325144663307
+    },
+    "ood_test": {
+      "ood_test_p_rel_rmse_pct": 29.533288290865883,
+      "ood_test_pdot_rel_rmse_pct": 28.496311256030243,
+      "ood_test_state_rel_rmse_pct": 28.747019842459547,
+      "ood_test_energy_rel_rmse_pct": 20.822712192020806,
+      "ood_test_resistance_rel_rmse_pct": 21.9059199946002,
+      "ood_test_force_rel_rmse_pct": 39.10651100931485,
+      "ood_test_pd_closure_rel_rmse_pct": 6.0209685622282025,
+      "ood_test_balance_closure_rel_rmse_pct": 50.26853085606394
+    },
+    "all_test": {
+      "all_test_p_rel_rmse_pct": 9.243481511191126,
+      "all_test_pdot_rel_rmse_pct": 11.843389731618704,
+      "all_test_state_rel_rmse_pct": 11.216753497055338,
+      "all_test_energy_rel_rmse_pct": 9.794186727065439,
+      "all_test_resistance_rel_rmse_pct": 24.297064831281105,
+      "all_test_force_rel_rmse_pct": 23.764720420135426,
+      "all_test_pd_closure_rel_rmse_pct": 6.118403339520003,
+      "all_test_balance_closure_rel_rmse_pct": 17.51215487064864
+    }
+  },
+  "parameter_count": 4424173,
+  "hard_pd_projection": false,
+  "hard_force_balance": false,
+  "projection_mode": "legacy_velocity",
+  "validation_score_components": [
+    "val_p_rel_rmse_pct",
+    "val_pdot_rel_rmse_pct",
+    "val_energy_rel_rmse_pct",
+    "val_resistance_rel_rmse_pct",
+    "val_force_rel_rmse_pct"
+  ],
+  "training_elapsed_s": 603.9073544000275,
+  "split_isolation": {
+    "train_rows": 9428,
+    "validation_rows": 3652,
+    "test_rows": 6448,
+    "checkpoint_selected_on": "validation only",
+    "test_usage": "one final evaluation after checkpoint selection"
+  },
+  "checkpoint_best": "source_project/multi_engine_data_python/outputs/ast_revision_pinn_weight_screen_3000/w200/run_01/best_ablation_response_operator.pt",
+  "history_csv": "source_project/multi_engine_data_python/outputs/ast_revision_pinn_weight_screen_3000/w200/run_01/history.csv",
+  "loss_plot": "source_project/multi_engine_data_python/outputs/ast_revision_pinn_weight_screen_3000/w200/run_01/loss_history.png",
+  "rmse_plot": "source_project/multi_engine_data_python/outputs/ast_revision_pinn_weight_screen_3000/w200/run_01/rmse_history.png",
+  "test_predictions": "source_project/multi_engine_data_python/outputs/ast_revision_pinn_weight_screen_3000/w200/run_01/test_predictions.npz"
+}

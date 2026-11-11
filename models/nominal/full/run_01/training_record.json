@@ -1,0 +1,66 @@
+{
+  "status": "success",
+  "model_kind": "cyclic_physics_constrained_pd_response_operator",
+  "best_epoch": 3000,
+  "best_validation_score": 7.462334749966627,
+  "best_validation_metrics": {
+    "epoch": 3000,
+    "train_loss": 0.002427781255942683,
+    "lr": 4.32e-05,
+    "elapsed_s": 5716.958092653978,
+    "train_p_rel_rmse_pct": 0.04471965584063546,
+    "train_pdot_rel_rmse_pct": 0.9468342078050834,
+    "train_state_rel_rmse_pct": 0.8196529370231312,
+    "train_energy_rel_rmse_pct": 0.3129779985839118,
+    "train_resistance_rel_rmse_pct": 0.23948635176077224,
+    "train_force_rel_rmse_pct": 0.23951966473375266,
+    "val_p_rel_rmse_pct": 0.2893086501466001,
+    "val_pdot_rel_rmse_pct": 6.388577772724646,
+    "val_state_rel_rmse_pct": 5.559456722878035,
+    "val_energy_rel_rmse_pct": 4.609961598348243,
+    "val_resistance_rel_rmse_pct": 1.281506181988222,
+    "val_force_rel_rmse_pct": 1.2815583194835618,
+    "val_score": 7.462334749966627
+  },
+  "strict_test_metrics": {
+    "test_p_rel_rmse_pct": 20.399965487296022,
+    "test_pdot_rel_rmse_pct": 1574.2723437350207,
+    "test_state_rel_rmse_pct": 1369.8155875807724,
+    "test_energy_rel_rmse_pct": 47.43679450939391,
+    "test_resistance_rel_rmse_pct": 7.972929728844143,
+    "test_force_rel_rmse_pct": 7.973062621759887
+  },
+  "target_threshold_pct": 5.0,
+  "target_passed": false,
+  "checked_test_metrics": [
+    "test_p_rel_rmse_pct",
+    "test_energy_rel_rmse_pct",
+    "test_resistance_rel_rmse_pct",
+    "test_force_rel_rmse_pct"
+  ],
+  "split_isolation": {
+    "strict": true,
+    "train_rows": 16605,
+    "validation_rows": 2254,
+    "test_rows": 669,
+    "checkpoint_selected_on": "validation only",
+    "test_usage": "one final evaluation after checkpoint selection"
+  },
+  "physics_closure": {
+    "motor_force": "predicted thrust; velocity is analytically projected so the archived PD law is exact",
+    "mechanical_resistance": "predicted thrust - rail_mass * predicted acceleration",
+    "rail_mass_kg": 7.27
+  },
+  "training_elapsed_s": 1908.460147494974,
+  "training_elapsed_s_total": 5717.825555242976,
+  "resumed_from": "source_project/multi_engine_data_python/outputs/phase10_physics_constrained_response_operator_v25_external_audit2000/best_physics_response_operator.pt",
+  "resume_epoch": 2000,
+  "optimizer_state_restored": false,
+  "scheduler_state_restored": false,
+  "checkpoint_best": "source_project/multi_engine_data_python/outputs/phase10_physics_constrained_response_operator_v25_external_audit3000_from2000/best_physics_response_operator.pt",
+  "history_csv": "source_project/multi_engine_data_python/outputs/phase10_physics_constrained_response_operator_v25_external_audit3000_from2000/history.csv",
+  "loss_plot": "source_project/multi_engine_data_python/outputs/phase10_physics_constrained_response_operator_v25_external_audit3000_from2000/loss_history.png",
+  "rmse_plot": "source_project/multi_engine_data_python/outputs/phase10_physics_constrained_response_operator_v25_external_audit3000_from2000/rmse_history.png",
+  "test_predictions": "source_project/multi_engine_data_python/outputs/phase10_physics_constrained_response_operator_v25_external_audit3000_from2000/strict_test_predictions.npz",
+  "test_by_trajectory": "source_project/multi_engine_data_python/outputs/phase10_physics_constrained_response_operator_v25_external_audit3000_from2000/test_metrics_by_trajectory.csv"
+}

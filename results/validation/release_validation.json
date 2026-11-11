@@ -1,0 +1,379 @@
+{
+  "date": "2026-11-11",
+  "environment": {
+    "python": "3.12.13",
+    "numpy": "2.2.6",
+    "torch": "2.9.0+cu128",
+    "cuda_inference": true
+  },
+  "preprocessing": {
+    "grouped": {
+      "p": 0.0,
+      "pdot": 0.0,
+      "u": 0.0,
+      "p_ref": 0.0,
+      "pdot_ref": 0.0,
+      "U_current": 0.0,
+      "U_next": 0.0,
+      "next_state": 0.0,
+      "accel": 0.0,
+      "mechanical_resistance": 0.0
+    },
+    "nominal": {
+      "p": 0.0,
+      "pdot": 0.0,
+      "u": 0.0,
+      "p_ref": 0.0,
+      "pdot_ref": 0.0,
+      "U_current": 0.0,
+      "U_next": 0.0,
+      "next_state": 0.0,
+      "accel": 0.0,
+      "mechanical_resistance": 0.0
+    }
+  },
+  "checkpoint_evaluation": {
+    "checkpoints": 33,
+    "scope_rows": 60,
+    "device": "cuda",
+    "maximum_archived_prediction_RMS_difference_pct": 0.01761969019059871,
+    "threshold_pct": 0.05
+  },
+  "training_execution_checks": {
+    "epochs": 1,
+    "training_rows": 256,
+    "validation_rows": 256,
+    "batch_size": 16,
+    "device": "cpu",
+    "configurations": 10,
+    "purpose": "Execution verification; archived paper weights and results are unchanged"
+  },
+  "checks": [
+    {
+      "command": [
+        "scripts/diagnostics.py",
+        "--device",
+        "cuda"
+      ],
+      "exit_code": 0,
+      "seconds": 3.06
+    },
+    {
+      "command": [
+        "scripts/evaluate_supplementary.py",
+        "--device",
+        "cuda"
+      ],
+      "exit_code": 0,
+      "seconds": 2.96
+    },
+    {
+      "command": [
+        "scripts/train.py",
+        "--protocol",
+        "grouped",
+        "--model",
+        "full",
+        "--run",
+        "run_01",
+        "--epochs",
+        "1",
+        "--eval-every",
+        "1",
+        "--batch-size",
+        "16",
+        "--dataset",
+        "${REPOSITORY}\\outputs\\smoke_grouped.npz",
+        "--device",
+        "cpu",
+        "--output-dir",
+        "${REPOSITORY}\\outputs\\smoke_cpu\\full"
+      ],
+      "exit_code": 0,
+      "seconds": 16.16
+    },
+    {
+      "command": [
+        "scripts/train.py",
+        "--protocol",
+        "grouped",
+        "--model",
+        "no_pd_projection",
+        "--run",
+        "run_01",
+        "--epochs",
+        "1",
+        "--eval-every",
+        "1",
+        "--batch-size",
+        "16",
+        "--dataset",
+        "${REPOSITORY}\\outputs\\smoke_grouped.npz",
+        "--device",
+        "cpu",
+        "--output-dir",
+        "${REPOSITORY}\\outputs\\smoke_cpu\\no_pd_projection"
+      ],
+      "exit_code": 0,
+      "seconds": 15.92
+    },
+    {
+      "command": [
+        "scripts/train.py",
+        "--protocol",
+        "grouped",
+        "--model",
+        "no_cyclic_coupling",
+        "--run",
+        "run_01",
+        "--epochs",
+        "1",
+        "--eval-every",
+        "1",
+        "--batch-size",
+        "16",
+        "--dataset",
+        "${REPOSITORY}\\outputs\\smoke_grouped.npz",
+        "--device",
+        "cpu",
+        "--output-dir",
+        "${REPOSITORY}\\outputs\\smoke_cpu\\no_cyclic_coupling"
+      ],
+      "exit_code": 0,
+      "seconds": 13.08
+    },
+    {
+      "command": [
+        "scripts/train.py",
+        "--protocol",
+        "grouped",
+        "--model",
+        "no_invariant_energy_pool",
+        "--run",
+        "run_01",
+        "--epochs",
+        "1",
+        "--eval-every",
+        "1",
+        "--batch-size",
+        "16",
+        "--dataset",
+        "${REPOSITORY}\\outputs\\smoke_grouped.npz",
+        "--device",
+        "cpu",
+        "--output-dir",
+        "${REPOSITORY}\\outputs\\smoke_cpu\\no_invariant_energy_pool"
+      ],
+      "exit_code": 0,
+      "seconds": 16.57
+    },
+    {
+      "command": [
+        "scripts/train.py",
+        "--protocol",
+        "grouped",
+        "--model",
+        "no_force_balance",
+        "--run",
+        "run_01",
+        "--epochs",
+        "1",
+        "--eval-every",
+        "1",
+        "--batch-size",
+        "16",
+        "--dataset",
+        "${REPOSITORY}\\outputs\\smoke_grouped.npz",
+        "--device",
+        "cpu",
+        "--output-dir",
+        "${REPOSITORY}\\outputs\\smoke_cpu\\no_force_balance"
+      ],
+      "exit_code": 0,
+      "seconds": 16.35
+    },
+    {
+      "command": [
+        "scripts/train.py",
+        "--protocol",
+        "grouped",
+        "--model",
+        "no_hard_closures",
+        "--run",
+        "run_01",
+        "--epochs",
+        "1",
+        "--eval-every",
+        "1",
+        "--batch-size",
+        "16",
+        "--dataset",
+        "${REPOSITORY}\\outputs\\smoke_grouped.npz",
+        "--device",
+        "cpu",
+        "--output-dir",
+        "${REPOSITORY}\\outputs\\smoke_cpu\\no_hard_closures"
+      ],
+      "exit_code": 0,
+      "seconds": 16.3
+    },
+    {
+      "command": [
+        "scripts/train.py",
+        "--protocol",
+        "grouped",
+        "--model",
+        "soft_pinn",
+        "--run",
+        "run_01",
+        "--epochs",
+        "1",
+        "--eval-every",
+        "1",
+        "--batch-size",
+        "16",
+        "--dataset",
+        "${REPOSITORY}\\outputs\\smoke_grouped.npz",
+        "--device",
+        "cpu",
+        "--output-dir",
+        "${REPOSITORY}\\outputs\\smoke_cpu\\soft_pinn"
+      ],
+      "exit_code": 0,
+      "seconds": 7.41
+    },
+    {
+      "command": [
+        "scripts/train.py",
+        "--protocol",
+        "grouped",
+        "--model",
+        "soft_pinn_tanh",
+        "--run",
+        "run_01",
+        "--epochs",
+        "1",
+        "--eval-every",
+        "1",
+        "--batch-size",
+        "16",
+        "--dataset",
+        "${REPOSITORY}\\outputs\\smoke_grouped.npz",
+        "--device",
+        "cpu",
+        "--output-dir",
+        "${REPOSITORY}\\outputs\\smoke_cpu\\soft_pinn_tanh"
+      ],
+      "exit_code": 0,
+      "seconds": 7.03
+    },
+    {
+      "command": [
+        "scripts/train.py",
+        "--protocol",
+        "grouped",
+        "--model",
+        "soft_pinn_fourier",
+        "--run",
+        "run_01",
+        "--epochs",
+        "1",
+        "--eval-every",
+        "1",
+        "--batch-size",
+        "16",
+        "--dataset",
+        "${REPOSITORY}\\outputs\\smoke_grouped.npz",
+        "--device",
+        "cpu",
+        "--output-dir",
+        "${REPOSITORY}\\outputs\\smoke_cpu\\soft_pinn_fourier"
+      ],
+      "exit_code": 0,
+      "seconds": 7.18
+    },
+    {
+      "command": [
+        "scripts/train.py",
+        "--protocol",
+        "nominal",
+        "--model",
+        "full",
+        "--epochs",
+        "1",
+        "--eval-every",
+        "1",
+        "--batch-size",
+        "16",
+        "--dataset",
+        "${REPOSITORY}\\outputs\\smoke_nominal.npz",
+        "--device",
+        "cpu",
+        "--output-dir",
+        "${REPOSITORY}\\outputs\\smoke_cpu\\nominal_full"
+      ],
+      "exit_code": 0,
+      "seconds": 5.35,
+      "verified_completion_manifest": "outputs/smoke_cpu/nominal_full/manifest.json"
+    }
+  ],
+  "target_free_inference_example": {
+    "records": 113,
+    "validated": true
+  },
+  "run_identifier_policy": "Commands and metadata use anonymous public run IDs. New training accepts a user-selected initialization seed.",
+  "anonymous_run_validation": {
+    "public_run_ids": [
+      "run_01",
+      "run_02",
+      "run_03"
+    ],
+    "checkpoints_evaluated": 33,
+    "checkpoint_bytes_unchanged": true,
+    "prepared_numeric_arrays_unchanged": true,
+    "archived_prediction_checks": "passed",
+    "entry_point_execution_checks": [
+      {
+        "entry_point": "scripts/prepare_data.py",
+        "exit_code": 0,
+        "seconds": 3.8
+      },
+      {
+        "entry_point": "scripts/prepare_data.py",
+        "exit_code": 0,
+        "seconds": 3.72
+      },
+      {
+        "entry_point": "scripts/evaluate.py",
+        "exit_code": 0,
+        "seconds": 7.39
+      },
+      {
+        "entry_point": "scripts/diagnostics.py",
+        "exit_code": 0,
+        "seconds": 2.81
+      },
+      {
+        "entry_point": "scripts/evaluate_supplementary.py",
+        "exit_code": 0,
+        "seconds": 2.81
+      },
+      {
+        "entry_point": "scripts/predict.py",
+        "exit_code": 0,
+        "seconds": 2.56
+      },
+      {
+        "entry_point": "scripts/train.py",
+        "exit_code": 0,
+        "seconds": 8.84
+      },
+      {
+        "entry_point": "scripts/train.py",
+        "exit_code": 0,
+        "seconds": 7.14
+      }
+    ],
+    "numeric_seed_exposure_locations": 0
+  }
+}

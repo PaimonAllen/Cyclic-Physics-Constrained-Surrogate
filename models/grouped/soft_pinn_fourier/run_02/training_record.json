@@ -1,0 +1,86 @@
+{
+  "status": "success",
+  "experiment": "phase10_v25_one_factor_ablation",
+  "variant": "soft_pinn_fourier",
+  "best_epoch": 100,
+  "best_validation_score": 68.04257937929384,
+  "best_validation_metrics": {
+    "epoch": 100,
+    "train_loss": 0.025759255870746817,
+    "lr": 0.0002,
+    "elapsed_s": 12.82143500004895,
+    "train_p_rel_rmse_pct": 0.3296527311440663,
+    "train_pdot_rel_rmse_pct": 0.8323667714941213,
+    "train_state_rel_rmse_pct": 0.7424467705586364,
+    "train_energy_rel_rmse_pct": 2.0431876704485195,
+    "train_resistance_rel_rmse_pct": 1.7652943768354215,
+    "train_force_rel_rmse_pct": 2.081027637385495,
+    "train_pd_closure_rel_rmse_pct": 1.949546888966546,
+    "train_balance_closure_rel_rmse_pct": 2.4082509913343473,
+    "val_p_rel_rmse_pct": 4.564787943500621,
+    "val_pdot_rel_rmse_pct": 6.7243433281055225,
+    "val_state_rel_rmse_pct": 6.280535238962053,
+    "val_energy_rel_rmse_pct": 14.26196796971827,
+    "val_resistance_rel_rmse_pct": 25.002524438690134,
+    "val_force_rel_rmse_pct": 17.488955699279295,
+    "val_pd_closure_rel_rmse_pct": 5.494287287855446,
+    "val_balance_closure_rel_rmse_pct": 28.520841754508986,
+    "val_score": 68.04257937929384
+  },
+  "test_metrics": {
+    "formal_test": {
+      "formal_test_p_rel_rmse_pct": 4.406878739828628,
+      "formal_test_pdot_rel_rmse_pct": 8.605556721081852,
+      "formal_test_state_rel_rmse_pct": 7.717170575710625,
+      "formal_test_energy_rel_rmse_pct": 9.884327973676989,
+      "formal_test_resistance_rel_rmse_pct": 22.290429286708317,
+      "formal_test_force_rel_rmse_pct": 22.472899061391765,
+      "formal_test_pd_closure_rel_rmse_pct": 4.046322206582681,
+      "formal_test_balance_closure_rel_rmse_pct": 15.346003975421938
+    },
+    "ood_test": {
+      "ood_test_p_rel_rmse_pct": 31.270390664804722,
+      "ood_test_pdot_rel_rmse_pct": 28.042860013480603,
+      "ood_test_state_rel_rmse_pct": 28.845414878718874,
+      "ood_test_energy_rel_rmse_pct": 44.77798242328692,
+      "ood_test_resistance_rel_rmse_pct": 33.91115025401106,
+      "ood_test_force_rel_rmse_pct": 41.284746070439944,
+      "ood_test_pd_closure_rel_rmse_pct": 3.8186950992045037,
+      "ood_test_balance_closure_rel_rmse_pct": 68.6756788666133
+    },
+    "all_test": {
+      "all_test_p_rel_rmse_pct": 8.865103999388921,
+      "all_test_pdot_rel_rmse_pct": 11.149642511917751,
+      "all_test_state_rel_rmse_pct": 10.595405469550498,
+      "all_test_energy_rel_rmse_pct": 13.640360635285933,
+      "all_test_resistance_rel_rmse_pct": 22.614315573135784,
+      "all_test_force_rel_rmse_pct": 23.059489607357445,
+      "all_test_pd_closure_rel_rmse_pct": 4.041392857133156,
+      "all_test_balance_closure_rel_rmse_pct": 18.310773757695287
+    }
+  },
+  "parameter_count": 4427746,
+  "hard_pd_projection": false,
+  "hard_force_balance": false,
+  "projection_mode": "legacy_velocity",
+  "validation_score_components": [
+    "val_p_rel_rmse_pct",
+    "val_pdot_rel_rmse_pct",
+    "val_energy_rel_rmse_pct",
+    "val_resistance_rel_rmse_pct",
+    "val_force_rel_rmse_pct"
+  ],
+  "training_elapsed_s": 382.13656780007295,
+  "split_isolation": {
+    "train_rows": 9428,
+    "validation_rows": 3652,
+    "test_rows": 6448,
+    "checkpoint_selected_on": "validation only",
+    "test_usage": "one final evaluation after checkpoint selection"
+  },
+  "checkpoint_best": "source_project/multi_engine_data_python/outputs/ast_revision_literature_pinn_3000/soft_pinn_fourier/run_02/best_ablation_response_operator.pt",
+  "history_csv": "source_project/multi_engine_data_python/outputs/ast_revision_literature_pinn_3000/soft_pinn_fourier/run_02/history.csv",
+  "loss_plot": "source_project/multi_engine_data_python/outputs/ast_revision_literature_pinn_3000/soft_pinn_fourier/run_02/loss_history.png",
+  "rmse_plot": "source_project/multi_engine_data_python/outputs/ast_revision_literature_pinn_3000/soft_pinn_fourier/run_02/rmse_history.png",
+  "test_predictions": "source_project/multi_engine_data_python/outputs/ast_revision_literature_pinn_3000/soft_pinn_fourier/run_02/test_predictions.npz"
+}

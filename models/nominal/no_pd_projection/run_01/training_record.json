@@ -1,0 +1,78 @@
+{
+  "status": "success",
+  "experiment": "phase10_v25_one_factor_ablation",
+  "variant": "no_pd_projection",
+  "best_epoch": 1200,
+  "best_validation_score": 6.853082801644825,
+  "best_validation_metrics": {
+    "epoch": 1200,
+    "train_loss": 0.0016983382322875128,
+    "lr": 0.0002,
+    "elapsed_s": 2387.7513822180044,
+    "train_p_rel_rmse_pct": 0.06439213027017675,
+    "train_pdot_rel_rmse_pct": 0.2488851526931898,
+    "train_state_rel_rmse_pct": 0.2177779447996153,
+    "train_energy_rel_rmse_pct": 0.29065907284299125,
+    "train_resistance_rel_rmse_pct": 0.35842761216919583,
+    "train_force_rel_rmse_pct": 0.35843144486800493,
+    "train_pd_closure_rel_rmse_pct": 0.3537287844461837,
+    "train_balance_closure_rel_rmse_pct": 0.0,
+    "val_p_rel_rmse_pct": 0.37441579227085614,
+    "val_pdot_rel_rmse_pct": 0.5961554672387386,
+    "val_state_rel_rmse_pct": 0.5505062752380466,
+    "val_energy_rel_rmse_pct": 4.181622223266394,
+    "val_resistance_rel_rmse_pct": 1.1485508632819172,
+    "val_force_rel_rmse_pct": 1.1484939228256579,
+    "val_pd_closure_rel_rmse_pct": 0.938895900338009,
+    "val_balance_closure_rel_rmse_pct": 0.0,
+    "val_score": 6.853082801644825
+  },
+  "test_metrics": {
+    "formal_test": {
+      "formal_test_p_rel_rmse_pct": 0.06113229875015999,
+      "formal_test_pdot_rel_rmse_pct": 0.3022062045260087,
+      "formal_test_state_rel_rmse_pct": 0.2639379231885039,
+      "formal_test_energy_rel_rmse_pct": 1.5663664005228575,
+      "formal_test_resistance_rel_rmse_pct": 0.6864284722455257,
+      "formal_test_force_rel_rmse_pct": 0.6864022083134311,
+      "formal_test_pd_closure_rel_rmse_pct": 0.4089745236924231,
+      "formal_test_balance_closure_rel_rmse_pct": 0.0
+    },
+    "ood_test": {
+      "ood_test_p_rel_rmse_pct": 28.78343093565795,
+      "ood_test_pdot_rel_rmse_pct": 29.669340676546188,
+      "ood_test_state_rel_rmse_pct": 29.460476748263204,
+      "ood_test_energy_rel_rmse_pct": 74.88730527820117,
+      "ood_test_resistance_rel_rmse_pct": 18.9052689007346,
+      "ood_test_force_rel_rmse_pct": 18.907675286782684,
+      "ood_test_pd_closure_rel_rmse_pct": 53.12665035029754,
+      "ood_test_balance_closure_rel_rmse_pct": 0.0
+    },
+    "all_test": {
+      "all_test_p_rel_rmse_pct": 20.162224180320433,
+      "all_test_pdot_rel_rmse_pct": 21.037131304197732,
+      "all_test_state_rel_rmse_pct": 20.8279775842898,
+      "all_test_energy_rel_rmse_pct": 47.61087428783713,
+      "all_test_resistance_rel_rmse_pct": 11.14363058595248,
+      "all_test_force_rel_rmse_pct": 11.144914326142029,
+      "all_test_pd_closure_rel_rmse_pct": 31.2778155463872,
+      "all_test_balance_closure_rel_rmse_pct": 0.0
+    }
+  },
+  "parameter_count": 4431877,
+  "hard_pd_projection": false,
+  "hard_force_balance": true,
+  "training_elapsed_s": 5975.077930719999,
+  "split_isolation": {
+    "train_rows": 16605,
+    "validation_rows": 2254,
+    "test_rows": 669,
+    "checkpoint_selected_on": "validation only",
+    "test_usage": "one final evaluation after checkpoint selection"
+  },
+  "checkpoint_best": "source_project/multi_engine_data_python/outputs/phase10_response_operator_ablation_v25_3000/no_pd_projection/best_ablation_response_operator.pt",
+  "history_csv": "source_project/multi_engine_data_python/outputs/phase10_response_operator_ablation_v25_3000/no_pd_projection/history.csv",
+  "loss_plot": "source_project/multi_engine_data_python/outputs/phase10_response_operator_ablation_v25_3000/no_pd_projection/loss_history.png",
+  "rmse_plot": "source_project/multi_engine_data_python/outputs/phase10_response_operator_ablation_v25_3000/no_pd_projection/rmse_history.png",
+  "test_predictions": "source_project/multi_engine_data_python/outputs/phase10_response_operator_ablation_v25_3000/no_pd_projection/test_predictions.npz"
+}

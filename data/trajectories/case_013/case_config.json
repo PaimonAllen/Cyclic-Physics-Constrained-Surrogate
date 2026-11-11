@@ -1,0 +1,61 @@
+{
+  "case_name": "full_nozzle_aug_v003__case2_nonuniform_peak_opposite_min__pd",
+  "control": {
+    "arctan_k": 9.843244158523873,
+    "arctan_u_scale": [
+      -50384.85661754969,
+      -44568.09133353369,
+      -29264.40294868712,
+      -10539.011077721581,
+      4493.95598515093,
+      12454.808696891707,
+      14674.454776628714,
+      12454.808696891707,
+      4493.95598515093,
+      -10539.011077721581,
+      -29264.40294868712,
+      -44568.09133352052
+    ],
+    "direction_pattern": "peak_opposite_min",
+    "integral_limit": null,
+    "mpc_damping": 20000.0,
+    "mpc_dt": 0.02,
+    "mpc_horizon": 8,
+    "mpc_mass": 7.27,
+    "mpc_q": 100000000000.0,
+    "mpc_qv": 10000.0,
+    "mpc_r": 1e-06,
+    "mpc_rd": 1e-07,
+    "mpc_stiffness": 533000.0,
+    "peak_deg": 0.0,
+    "pid_error_sign": 1.0,
+    "pid_kd": 25010.717886199516,
+    "pid_ki": 0.0,
+    "pid_kp": 2684112.936622645,
+    "surrogate_model_path": "",
+    "u_max": 100000.0,
+    "u_min": -100000.0
+  },
+  "geometry": {
+    "Hb": 0.08949999999999998,
+    "Hd": 0.0,
+    "Hu": 0.1418,
+    "Rb": 0.1197,
+    "Rd": 0.1705,
+    "Ru": 0.09,
+    "thickness": 0.0017000000000000001
+  },
+  "material": {
+    "E": 1500000000.0,
+    "damping_c": 0.01,
+    "nu": 0.3,
+    "rho": 7810.0,
+    "rho_b": 7810.0
+  },
+  "model_variant": "full_nozzle",
+  "plant_model": "python_ale_full_order",
+  "simulation_mode": "pid",
+  "time": {
+    "sim_time": 1.0
+  }
+}

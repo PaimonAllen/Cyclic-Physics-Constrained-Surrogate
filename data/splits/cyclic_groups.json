@@ -1,0 +1,532 @@
+{
+  "source": "multi_engine_data_python\\outputs\\phase10_external_audit_dataset_v25\\context_energy_dataset.npz",
+  "run_id": "run_01",
+  "policy": "Whole cyclic-equivalence groups; fixed before new training; no resumption of old weights.",
+  "groups": {
+    "037714cac4bc3f2fc6e963202a47764990cb0d675d83206ed3d445d1f8840149": {
+      "split": 0,
+      "trajectory_ids": [
+        47,
+        49
+      ]
+    },
+    "039c384ff7b52528fccd47173a9700d77e9f7a52ea7341e3a9f2b9d2e2245c44": {
+      "split": 0,
+      "trajectory_ids": [
+        89,
+        91
+      ]
+    },
+    "0a3c9ba56102a7ba71d9e1595b24caf26a5c4a6f480f4647420a8c54a8835bbd": {
+      "split": 0,
+      "trajectory_ids": [
+        57
+      ]
+    },
+    "13b2e080cb89febad22660a4513e9c0668365b2f40a0feab66a35904c4363588": {
+      "split": 0,
+      "trajectory_ids": [
+        179
+      ]
+    },
+    "13ca1a0f4ea0d03b86e1afb643149faf0f0a2a937c07bf9fd34874dae454df2d": {
+      "split": 0,
+      "trajectory_ids": [
+        180
+      ]
+    },
+    "1454fcd1be23c2c847a34483597dcff770bb247c28382276a87a8ce519ab9bc4": {
+      "split": 0,
+      "trajectory_ids": [
+        15
+      ]
+    },
+    "1f972e6605a75a68ddbf683e1f1533d670262d18d634f02895f5181917a173f5": {
+      "split": 0,
+      "trajectory_ids": [
+        127
+      ]
+    },
+    "2853f67e82450a945f4b74ce5c1c308373000307a63f89e47d04894ea2742c26": {
+      "split": 0,
+      "trajectory_ids": [
+        166
+      ]
+    },
+    "299c4d57e4c75bc137522121be8d4c648f756dc99b1f9df1ec91d5267b15a9ca": {
+      "split": 0,
+      "trajectory_ids": [
+        139
+      ]
+    },
+    "2a6263bf09cd52e154792dd8e49f814cf88b370d0c4fb5efdd9e946c5b7df9d9": {
+      "split": 0,
+      "trajectory_ids": [
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151
+      ]
+    },
+    "2e9489a939525bf3050d47d5d6314da34dc499e3ac0fcbae8be90abe66e25206": {
+      "split": 0,
+      "trajectory_ids": [
+        63
+      ]
+    },
+    "3576153d820da37640a48dc5332e9e613bca84af17e3fbe4650964bd472c0e4a": {
+      "split": 0,
+      "trajectory_ids": [
+        53,
+        55
+      ]
+    },
+    "4c2507307757b246189b13d0b77bb78547e477c7f1c7e0eff7839f21e7bd3f0a": {
+      "split": 0,
+      "trajectory_ids": [
+        105,
+        107
+      ]
+    },
+    "58cd3f1058726dfcdd85b6885a73f621b92a5a8e7110263a6a8f3c7b0f453e04": {
+      "split": 0,
+      "trajectory_ids": [
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177
+      ]
+    },
+    "5cfeaffe6277f28fe81983a1d216354303b9848ee0dbd3533286c4b9dad3ff6d": {
+      "split": 0,
+      "trajectory_ids": [
+        111,
+        113
+      ]
+    },
+    "6fdfaba87bccb73e33828d810c9bba0fccc13ca7f164b3b32c183587a26a71d8": {
+      "split": 0,
+      "trajectory_ids": [
+        128
+      ]
+    },
+    "702e9a1a8896d3fb8414dd2b4544d34df28f36f52419d528e8e63de87b656b36": {
+      "split": 0,
+      "trajectory_ids": [
+        75
+      ]
+    },
+    "74f1405f240ddbd85b7df94657e1ebc4590cadcc0948b6d70299ad1d0c66aae5": {
+      "split": 0,
+      "trajectory_ids": [
+        23,
+        25
+      ]
+    },
+    "7c415d05d8351ff329ada8902d6d6f3265c39f1833dac9f595b8a7e6536a4e05": {
+      "split": 0,
+      "trajectory_ids": [
+        95,
+        96
+      ]
+    },
+    "7e1a3f559f4f43264210696ba40385a10b1ba8a9a408d9a5728a6ab7cbf0ce35": {
+      "split": 0,
+      "trajectory_ids": [
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164
+      ]
+    },
+    "7f2704affa0fedba0d8db158b2ede4e7c582d6579166405dfc0746f1436521a0": {
+      "split": 0,
+      "trajectory_ids": [
+        115
+      ]
+    },
+    "80ff0747674e80d35d8fa39021e70b07571f7f6fa8a0cfed65af8f617504b8a1": {
+      "split": 0,
+      "trajectory_ids": [
+        45
+      ]
+    },
+    "8ab00fc4cfa3b9b76367efed640ac8df2f541947c34c3252127630de7591b3cb": {
+      "split": 0,
+      "trajectory_ids": [
+        83,
+        85
+      ]
+    },
+    "900d161d9e2303041bc995b25763895b96921942dfcf4dc1012afdd8e976e0bf": {
+      "split": 0,
+      "trajectory_ids": [
+        103
+      ]
+    },
+    "93c583d003bf4656f02a15fe71fe031365b213dea125c0aca7e97fa258dfce5b": {
+      "split": 0,
+      "trajectory_ids": [
+        11
+      ]
+    },
+    "979ea077a77ee4092fcdff21cd18f043ec8974a2b957f0c62387edc3d3cd3809": {
+      "split": 0,
+      "trajectory_ids": [
+        140
+      ]
+    },
+    "984b02c06adcf2096322bacfbc9383a83dea1329786fc67fd88661aeb445a071": {
+      "split": 0,
+      "trajectory_ids": [
+        39
+      ]
+    },
+    "a4f5c723862537d3cb2ffeff4914885b11ff808810cd0e71385c24e048a32091": {
+      "split": 0,
+      "trajectory_ids": [
+        33
+      ]
+    },
+    "acb9a855a33f39bc434b7c88d97cec29f443ccdaf8da48d5d5c62ee23f2446ce": {
+      "split": 0,
+      "trajectory_ids": [
+        93
+      ]
+    },
+    "ae0e37c8d277f08f5db01af03852ca1d297b7993543d309df597aa9da152789f": {
+      "split": 0,
+      "trajectory_ids": [
+        178
+      ]
+    },
+    "b163ae31f294fe45833aaff09865cbf4b1c9d65e7c7078ba4249fdaa2123cc0c": {
+      "split": 0,
+      "trajectory_ids": [
+        167
+      ]
+    },
+    "b67a6f60828119bdb739c66c787d2a001990d865be400b0e171c480d0b082385": {
+      "split": 0,
+      "trajectory_ids": [
+        29,
+        31
+      ]
+    },
+    "c0440761349814cbf26a075b8a5756dd7cc5eef13cfd3451a42409a40a8d5fbc": {
+      "split": 0,
+      "trajectory_ids": [
+        81
+      ]
+    },
+    "d4dc16de43ddc2de068d44a9706cdf1001fbd4729e4855219c763003a53e1cf8": {
+      "split": 0,
+      "trajectory_ids": [
+        59,
+        61
+      ]
+    },
+    "dd326c7346b6aa7528ff21f798d1767bc758cf26d381df979fec562cfb1ffec6": {
+      "split": 0,
+      "trajectory_ids": [
+        141
+      ]
+    },
+    "e04abe1a43df6d0e8c1f32eec500d106e75a701d4b1d6fc4416aaa3a94cb0a10": {
+      "split": 0,
+      "trajectory_ids": [
+        35,
+        37
+      ]
+    },
+    "e6073a4b6010cf195ef5e35151fed832c622e2b955332798bdf14115fb663396": {
+      "split": 0,
+      "trajectory_ids": [
+        5
+      ]
+    },
+    "e83c59c9b2c125438cc6c2362adbf3c88ea814372d67231ad834b5ee34c3e23b": {
+      "split": 0,
+      "trajectory_ids": [
+        27
+      ]
+    },
+    "e89cd8be053b6c768fbf4cf79c46887ed1dcfc0b71ad53a3a64caad1b33f98eb": {
+      "split": 0,
+      "trajectory_ids": [
+        69
+      ]
+    },
+    "f2fde09ad5a455d7e457502f25b9294663b798216b31c3085dd934e58cf11f11": {
+      "split": 0,
+      "trajectory_ids": [
+        154
+      ]
+    },
+    "f366be69a6bb1e661fe85db813fbb8b3e450eeb26f78a2beec1b7866d9c99537": {
+      "split": 0,
+      "trajectory_ids": [
+        193
+      ]
+    },
+    "f829c3b453cdd51054e430e4efac3fd2f1a54232db1a5e72bfd348f3dffb4ee4": {
+      "split": 0,
+      "trajectory_ids": [
+        71,
+        73
+      ]
+    },
+    "fc5825167f469e8964e8f5ff260f960ffce8167edf8f635fa9f24d42d05668e3": {
+      "split": 0,
+      "trajectory_ids": [
+        191
+      ]
+    },
+    "fe112f1b641611c6f6d3c56ba39ff5576c4d7386a6e5ec97e8e11ef01b38201a": {
+      "split": 0,
+      "trajectory_ids": [
+        77,
+        79
+      ]
+    },
+    "1b67b6c6c9fc4f355859e04cb90eca99a28544d776b8dc9720468b7f301029b6": {
+      "split": 1,
+      "trajectory_ids": [
+        17,
+        19
+      ]
+    },
+    "5399abc1efd2a26ea6af7bbd9f616c653024ee7bee4a7825167629092edf0600": {
+      "split": 1,
+      "trajectory_ids": [
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125
+      ]
+    },
+    "59d00d72607bf75d68e5560816232f43a60ca338ed382629520f169b7f055f3e": {
+      "split": 1,
+      "trajectory_ids": [
+        41,
+        43
+      ]
+    },
+    "6775d7b63d4d7b66560d51d03f62b97ca2833a7dac187b25a2cff09ce3d7c988": {
+      "split": 1,
+      "trajectory_ids": [
+        7,
+        9
+      ]
+    },
+    "68638fc30bbe1c94d3475874e814a12b22f7a12d793e40dbd71bedbb98f8863f": {
+      "split": 1,
+      "trajectory_ids": [
+        65,
+        67
+      ]
+    },
+    "6b0e668e3c44f0a80deff27227f270a4aeac92b2659d002be7701d0ead6e6019": {
+      "split": 1,
+      "trajectory_ids": [
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138
+      ]
+    },
+    "b4357ad30f79968822d90006de94543761e5f525e6b60f9057251bea05573089": {
+      "split": 1,
+      "trajectory_ids": [
+        87
+      ]
+    },
+    "c3983abb749431417a89b5114181ef9fc4bebc045937006db7e241ccbd06c2ec": {
+      "split": 1,
+      "trajectory_ids": [
+        126
+      ]
+    },
+    "d17fced2a69bff9d1d35c984d5cd32673f1256f7ec42ce3b38defc9400c2e54a": {
+      "split": 1,
+      "trajectory_ids": [
+        165
+      ]
+    },
+    "e6532afcabd6bbf9cedddf6254c61b0196d250f36c3627062133f52abe3dad50": {
+      "split": 1,
+      "trajectory_ids": [
+        51
+      ]
+    },
+    "120c5eaed9abb6cac1699b254b962309274c7f4b90a1cf9976faf6e8345457b1": {
+      "split": 2,
+      "trajectory_ids": [
+        152
+      ]
+    },
+    "2e8934c6348f108f4a1da7202dd7c8a5a682d04a51e8a6c417c6de86d2f5c6c3": {
+      "split": 2,
+      "trajectory_ids": [
+        192
+      ]
+    },
+    "4b422791723ca28c6eccad25e6105909943f7e9951a305fda63210c6a5c5507d": {
+      "split": 2,
+      "trajectory_ids": [
+        98
+      ]
+    },
+    "51e9a4c9506b2c5644ffec7a56f36afa237d8d4b3e96bd819fb4ac05259419fd": {
+      "split": 2,
+      "trajectory_ids": [
+        21
+      ]
+    },
+    "6abb543092c3670a5748f18332d207aff169f7e30d23640c423eb162e9ee159f": {
+      "split": 2,
+      "trajectory_ids": [
+        100,
+        101
+      ]
+    },
+    "8377541f9eba4227e495715fbd119af47e1cb7c4f75f46c887bd913269d179ab": {
+      "split": 2,
+      "trajectory_ids": [
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190
+      ]
+    },
+    "aa7b31b1e92ac64fec44f02d1fcac437d0aad10eabb41036ee3fdb89b8fbd0fc": {
+      "split": 2,
+      "trajectory_ids": [
+        1,
+        3
+      ]
+    },
+    "b178c63494f67fea3bfc544a53e15278b27c05a063d47308f7d552eb6e22f2fb": {
+      "split": 2,
+      "trajectory_ids": [
+        195,
+        196
+      ]
+    },
+    "bca583921051c1da4d311d2e76f27b5a8c0c09e8b892c94af84f6f6b0193fca3": {
+      "split": 2,
+      "trajectory_ids": [
+        12,
+        13
+      ]
+    },
+    "cb134b253ecdfeedfe67b07587e3d56c316a77f5962847465bb7aa75cbfc3426": {
+      "split": 2,
+      "trajectory_ids": [
+        109
+      ]
+    },
+    "cee9c18a29d290bccf4f0e6a328c956204dcb8cf85e274879f21d9957f07aa7f": {
+      "split": 2,
+      "trajectory_ids": [
+        153
+      ]
+    },
+    "d566f525dd9297dbc947d1c6487ceaecb4c9e7b01297fba7fca48a5716b59158": {
+      "split": 2,
+      "trajectory_ids": [
+        194
+      ]
+    }
+  },
+  "formal_test_ids": [
+    1,
+    3,
+    12,
+    13,
+    21,
+    98,
+    100,
+    101,
+    109,
+    152,
+    153,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    192,
+    194,
+    195,
+    196
+  ],
+  "legacy_ood_ids": [
+    197,
+    198,
+    199
+  ],
+  "splits": {
+    "0": {
+      "trajectories": 84,
+      "time_records": 9428,
+      "rail_points": 113136
+    },
+    "1": {
+      "trajectories": 32,
+      "time_records": 3652,
+      "rail_points": 43824
+    },
+    "2": {
+      "trajectories": 28,
+      "time_records": 6448,
+      "rail_points": 77376
+    }
+  },
+  "formal_test": {
+    "trajectories": 25,
+    "time_records": 6126,
+    "rail_points": 73512
+  }
+}
